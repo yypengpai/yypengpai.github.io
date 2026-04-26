@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>巴梦科技博客 - 智能科技前沿洞察</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo-link">
+                    <div class="logo">
+                        <span class="logo-icon">🤖</span>
+                        <span class="logo-text">巴梦科技</span>
+                    </div>
+                </a>
+                <div class="logo-subtitle">Bameng Tech</div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="index.html#services" class="nav-link">服务</a></li>
+                <li><a href="index.html#about" class="nav-link">关于</a></li>
+                <li><a href="index.html#portfolio" class="nav-link">案例</a></li>
+                <li><a href="blog.html" class="nav-link active">博客</a></li>
+                <li><a href="index.html#contact" class="nav-link">联系</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 博客英雄区域 -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="blog-hero-content">
+                <h1 class="blog-hero-title">智能科技前沿洞察</h1>
+                <p class="blog-hero-subtitle">
+                    探索AI、智能玩具、软件开发的最新趋势与实践经验
+                </p>
+                <div class="blog-search">
+                    <input type="text" placeholder="搜索文章..." class="search-input">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客内容区域 -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- 主内容区域 -->
+                <main class="blog-main">
+                    <!-- 精选文章 -->
+                    <div class="featured-article">
+                        <div class="featured-image" style="background: linear-gradient(135deg, var(--accent-blue) 0%, #3a86ff 100%);">
+                            <span class="featured-badge">精选</span>
+                        </div>
+                        <div class="featured-content">
+                            <div class="article-meta">
+                                <span class="article-category">AI技术</span>
+                                <span class="article-date">2024年3月15日</span>
+                                <span class="article-read-time">8分钟阅读</span>
+                            </div>
+                            <h2 class="article-title">智能玩具中的AI：如何让孩子在玩乐中学习编程</h2>
+                            <p class="article-excerpt">
+                                探索如何将AI技术融入教育玩具，创造既能娱乐又能教育的智能产品。
+                                本文分享我们在开发智能编程机器人时的实践经验和技术挑战。
+                            </p>
+                            <a href="article-ai-toys.html" class="article-read-more">阅读全文 →</a>
+                        </div>
+                    </div>
+
+                    <!-- 文章网格 -->
+                    <div class="articles-grid">
+                        <!-- 文章1 -->
+                        <article class="article-card">
+                            <div class="article-image" style="background: linear-gradient(135deg, var(--accent-orange) 0%, #ff9a5c 100%);">
+                                <span class="article-category-tag">知识库</span>
+                            </div>
+                            <div class="article-card-content">
+                                <div class="article-meta">
+                                    <span class="article-date">2024年3月10日</span>
+                                    <span class="article-read-time">6分钟阅读</span>
+                                </div>
+                                <h3 class="article-card-title">构建企业知识库的最佳实践</h3>
+                                <p class="article-card-excerpt">
+                                    如何设计一个既高效又易用的企业知识管理系统？
+                                    分享我们在构建知识库时的架构设计和用户体验考量。
+                                </p>
+                                <a href="#" class="article-card-link">阅读更多</a>
+                            </div>
+                        </article>
+
+                        <!-- 文章2 -->
+                        <article class="article-card">
+                            <div class="article-image" style="background: linear-gradient(135deg, var(--accent-green) 0%, #9bc26d 100%);">
+                                <span class="article-category-tag">软件开发</span>
+                            </div>
+                            <div class="article-card-content">
+                                <div class="article-meta">
+                                    <span class="article-date">2024年3月5日</span>
+                                    <span class="article-read-time">10分钟阅读</span>
+                                </div>
+                                <h3 class="article-card-title">一人公司的技术栈选择指南</h3>
+                                <p class="article-card-excerpt">
+                                    作为一人公司，如何选择既高效又可持续的技术栈？
+                                    分享我们的技术选型经验和成本控制策略。
+                                </p>
+                                <a href="#" class="article-card-link">阅读更多</a>
+                            </div>
+                        </article>
+
+                        <!-- 文章3 -->
+                        <article class="article-card">
+                            <div class="article-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <span class="article-category-tag">AI定制</span>
+                            </div>
+                            <div class="article-card-content">
+                                <div class="article-meta">
+                                    <span class="article-date">2024年2月28日</span>
+                                    <span class="article-read-time">7分钟阅读</span>
+                                </div>
+                                <h3 class="article-card-title">如何为小型企业定制AI助手</h3>
+                                <p class="article-card-excerpt">
+                                    小型企业也能负担得起的AI定制方案。
+                                    分享我们为中小企业开发AI客服系统的经验和成果。
+                                </p>
+                                <a href="#" class="article-card-link">阅读更多</a>
+                            </div>
+                        </article>
+
+                        <!-- 文章4 -->
+                        <article class="article-card">
+                            <div class="article-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                <span class="article-category-tag">行业趋势</span>
+                            </div>
+                            <div class="article-card-content">
+                                <div class="article-meta">
+                                    <span class="article-date">2024年2月20日</span>
+                                    <span class="article-read-time">9分钟阅读</span>
+                                </div>
+                                <h3 class="article-card-title">2024年智能玩具市场趋势分析</h3>
+                                <p class="article-card-excerpt">
+                                    分析当前智能玩具市场的发展趋势和技术创新方向。
+                                    探讨AI、AR/VR等技术在玩具行业的应用前景。
+                                </p>
+                                <a href="#" class="article-card-link">阅读更多</a>
+                            </div>
+                        </article>
+
+                        <!-- 文章5 -->
+                        <article class="article-card">
+                            <div class="article-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                <span class="article-category-tag">技术教程</span>
+                            </div>
+                            <div class="article-card-content">
+                                <div class="article-meta">
+                                    <span class="article-date">2024年2月15日</span>
+                                    <span class="article-read-time">12分钟阅读</span>
+                                </div>
+                                <h3 class="article-card-title">使用React构建智能玩具控制面板</h3>
+                                <p class="article-card-excerpt">
+                                    一步步教你如何使用React和WebSocket构建实时玩具控制界面。
+                                    包含完整的代码示例和部署指南。
+                                </p>
+                                <a href="#" class="article-card-link">阅读更多</a>
+                            </div>
+                        </article>
+
+                        <!-- 文章6 -->
+                        <article class="article-card">
+                            <div class="article-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                                <span class="article-category-tag">创业经验</span>
+                            </div>
+                            <div class="article-card-content">
+                                <div class="article-meta">
+                                    <span class="article-date">2024年2月10日</span>
+                                    <span class="article-read-time">5分钟阅读</span>
+                                </div>
+                                <h3 class="article-card-title">一人公司如何管理技术债务</h3>
+                                <p class="article-card-excerpt">
+                                    分享我们在快速发展过程中管理技术债务的经验教训。
+                                    如何平衡快速交付和代码质量？
+                                </p>
+                                <a href="#" class="article-card-link">阅读更多</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- 分页 -->
+                    <div class="pagination">
+                        <a href="#" class="page-link active">1</a>
+                        <a href="#" class="page-link">2</a>
+                        <a href="#" class="page-link">3</a>
+                        <a href="#" class="page-link">4</a>
+                        <span class="page-ellipsis">...</span>
+                        <a href="#" class="page-link">10</a>
+                        <a href="#" class="page-link next">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </main>
+
+                <!-- 侧边栏 -->
+                <aside class="blog-sidebar">
+                    <!-- 分类 -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">文章分类</h3>
+                        <ul class="category-list">
+                            <li>
+                                <a href="#" class="category-link">
+                                    <span class="category-name">AI技术</span>
+                                    <span class="category-count">12</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="category-link">
+                                    <span class="category-name">智能玩具</span>
+                                    <span class="category-count">8</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="category-link">
+                                    <span class="category-name">软件开发</span>
+                                    <span class="category-count">15</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="category-link">
+                                    <span class="category-name">知识库</span>
+                                    <span class="category-count">6</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="category-link">
+                                    <span class="category-name">创业经验</span>
+                                    <span class="category-count">10</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="category-link">
+                                    <span class="category-name">行业趋势</span>
+                                    <span class="category-count">7</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 热门文章 -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">热门文章</h3>
+                        <div class="popular-articles">
+                            <a href="#" class="popular-article">
+                                <span class="popular-rank">1</span>
+                                <div class="popular-content">
+                                    <h4>智能玩具安全设计指南</h4>
+                                    <span class="popular-meta">2月阅读 · 5分钟</span>
+                                </div>
+                            </a>
+                            <a href="#" class="popular-article">
+                                <span class="popular-rank">2</span>
+                                <div class="popular-content">
+                                    <h4>如何用AI提升客服效率</h4>
+                                    <span class="popular-meta">1月阅读 · 7分钟</span>
+                                </div>
+                            </a>
+                            <a href="#" class="popular-article">
+                                <span class="popular-rank">3</span>
+                                <div class="popular-content">
+                                    <h4>一人公司的技术架构设计</h4>
+                                    <span class="popular-meta">3月阅读 · 9分钟</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 订阅 -->
+                    <div class="sidebar-widget subscribe-widget">
+                        <h3 class="widget-title">订阅更新</h3>
+                        <p class="subscribe-text">
+                            获取最新的技术文章和行业洞察
+                        </p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="您的邮箱地址" required>
+                            <button type="submit" class="subscribe-btn">
+                                <i class="fas fa-paper-plane"></i> 订阅
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- 标签云 -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">热门标签</h3>
+                        <div class="tag-cloud">
+                            <a href="#" class="tag">人工智能</a>
+                            <a href="#" class="tag">机器学习</a>
+                            <a href="#" class="tag">React</a>
+                            <a href="#" class="tag">TypeScript</a>
+                            <a href="#" class="tag">教育科技</a>
+                            <a href="#" class="tag">物联网</a>
+                            <a href="#" class="tag">创业</a>
+                            <a href="#" class="tag">产品设计</a>
+                            <a href="#" class="tag">用户体验</a>
+                            <a href="#" class="tag">技术架构</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🤖</span>
+                        <span class="logo-text">巴梦科技</span>
+                    </div>
+                    <p class="footer-description">
+                        创造智能未来，从玩具到企业级AI
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="index.html#services">服务</a></li>
+                        <li><a href="index.html#about">关于</a></li>
+                        <li><a href="index.html#portfolio">案例</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="index.html#contact">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>关注我们</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 巴梦科技. 保留所有权利.</p>
+                <p>智能科技前沿洞察 - 博客系统</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
